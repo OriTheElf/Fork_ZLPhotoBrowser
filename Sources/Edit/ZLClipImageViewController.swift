@@ -221,7 +221,7 @@ class ZLClipImageViewController: UIViewController {
     }
     
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .portrait
+        return .all
     }
     
     deinit {
